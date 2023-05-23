@@ -1,0 +1,78 @@
+/* Class for centering */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    width: 50%;
+  }
+/* Makes all p elements color of font black */
+p {
+  color: black;
+}
+/* Makes links you've already visited pink */
+a:visited {
+  color: pink;
+}
+
+/* When you highlight text the background is black and the words are red */
+::selection {
+  color: red;
+  background: black;
+}
+
+
+/* Makes an id named font a timees new roman font */
+#font {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Class for aphex twin background and doesn't repeat image */
+.aphex {
+    background-image: url('media/aphex-twin-logo.png');
+    background-repeat: no-repeat;
+}
+
+
+/* Class for spinning earth gif */
+.earth {
+    width:400px;
+    height:auto;
+  }
+/* Class called center block that centers images */
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ /* Class that sets top buffer to 20px */
+ .top-buffer {
+  margin-top:20px;
+}
+/* Class that sets top buffer to 10px */
+.smalltop-buffer {
+  margin-top:10px;
+}
+
+/* Class that sets font color to yellow */
+.yellow {
+  color: yellow;
+}
+/* Class that sets font size to 40px */
+.bigfont {
+  font-size: 40px;
+}
+/* Class that sets background to gradient aura image */
+.gradient {
+  background-image: url('media/aura.jpeg');
+}
+
+/* Class that sets background to bladee gif */
+.stimulation{
+  background-image: url('media/bladee.gif');
+  background-size: cover;
+  height: 100vh;
+  padding:0;
+  margin:0;
+}
